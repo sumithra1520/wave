@@ -1,0 +1,34 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+     height: 100vh;
+     overflow: hidden;
+      background: linear-gradient(135deg, #2e3192, #1bffff);
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ h1{
+     position: absolute;
+        top: 50%;
+    width: 100%;
+     text-align: center;
+    font-size: 4rem;
+     color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+     transform: translateY(-50%);
+      user-select: none;
+ }
+ #waveCanvas{
+      
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  
+ }
+
+
+
+ /* In my CSS, I used position: fixed and z-index: -1 to make the canvas stretch across
+  the full screen and stay behind other content. I used width: 100% and height: 100% to ensure it fits any screen 
+  size responsively. The heading (<h1>) is styled to appear above the canvas and centered, with text-shadow 
+  to enhance visibility against the background animation. */
